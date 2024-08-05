@@ -1,0 +1,38 @@
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 40%;
+}
+
+
+
+table{
+    border: 1px solid black;
+    width: 82%;
+    border-collapse: separate;
+    margin: 3%;
+   
+}
+
+td,th{
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.t3:nth-child(odd){
+    background-color: blueviolet;
+}
+
+tr:hover{
+    background-color: crimson;
+}
+.t1{
+    background-color:rgb(181, 229, 10);
+}
+
+.tf:nth-child(even),.t3:nth-child(even){
+    background-color: cadetblue;
+}
